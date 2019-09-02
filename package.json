@@ -1,0 +1,15 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahil",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.2",
+    "@hapi/inert": "^5.2.1"
+  }
+}
