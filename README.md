@@ -10,7 +10,7 @@ npm i
 
 Change directory to serve
 ```
-Updated path on line 27
+Update path on line 27 of src/server.js
 ```
 
 Run
@@ -20,6 +20,6 @@ node src/server.js
 
 Test if server is running
 ```
-Access localhost:3000 in browser
+Access http://localhost:3000 in browser
 ```
 
