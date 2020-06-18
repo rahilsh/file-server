@@ -6,7 +6,8 @@ const start = async () => {
 
     const server = Hapi.server({
         port: 3000,
-        host: 'localhost'
+        host: 'localhost',
+        debug: { request: ['error'] }
     });
 
     await server.register(require('@hapi/inert'));
@@ -24,7 +25,7 @@ const start = async () => {
         path: '/{param*}',
         handler: {
             directory: {
-                path: '../../../Downloads',
+                path: '../../../../Downloads',
                 listing: true
             }
         }
