@@ -19,4 +19,4 @@ node src/server.js
 ```
 
 ### Test if server is running
-Access [link](http://localhost:3000) in browser
+Access [link](http://localhost:3000) using a browser
